@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos Comunes en Lenguajes de Programación</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Style3Cols.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Style.css">
+</head>
+<body>
+<header class="cabecera">
+    <img src="../Images/logo.jpg" alt="Logo">
+</header>
+<nav class="menu">
+    <p>Navegador</p>
+    <ul class="lista">
+        <li>
+            <a href="../Index.html">
+                Introducción
+            </a>
+        </li>
+
+        <li>
+            <a href="../Docs/TiposDeLenguajes.html">
+                Tipos De Lenguajes
+            </a>
+        </li>
+
+        <li>
+            <a href="../Docs/ListaDeLenguajes.html">
+                Lista de Lenguajes
+            </a>
+        </li>
+
+        <li>
+            <a href="../Docs/Contactenos.html">
+                Contactenos
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<nav class="contenido">
+    <section>
+        <h1 class="header1">Elementos comunes en los Lenguajes de Programación</h1>
+        <p>
+            Los lenguajes de programación se estructuran en 5 factores:
+        </p>
+        <ol>
+            <li>
+                <a><strong>Variables y Vectores</strong></a>
+                <p>
+                    Son espacios específicos de memoria que almacenan datos, en la mayoría de los lenguajes de programación se debe
+                    especificar el tipo de dato que va a ser almacenado como en <strong>Java</strong> en le que se escribe <strong>String</strong>
+                    si se quiere escribir una cadena de texto, pero en el caso de lenguajes como <strong>Python</strong> no es necesario
+                    ya que solo se necesita declarar la variable mas no el tipo de dato ya que el mismo puede ir cambiando acorde a
+                    la ejecución del programa.
+                    <strong>VECTORES:</strong>
+                    Mientras que una variable solo puede almacenar un valor (A excepción de las Strings ya que son un conjunto de caracteres)
+                    un vector puede contener un conjunto de valores almacenados de la misma manera, solo que en este caso representan
+                    espacios de memorias consecutivos.
+                </p>
+                <ul>
+                    <li>
+                        <a>char</a>
+                    </li>
+                    <li>
+                        <a>int</a>
+                    </li>
+                    <li>
+                        <a>float</a>
+                    </li>
+                    <li>
+                        <a>string</a>
+                    </li>
+                    <li>
+                        <a>boolean</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a><strong>Condicionales</strong></a>
+                <p>
+                    Las sentencias condicionales permiten controlar el flujo del programa, ya que determinan la ejecucion de ciertas
+                    sentencias si es que se cumplen, por ejemplo, si un numero es mayor que otro, o si son iguales.
+                </p>
+                <ul>
+                    <li>
+                        <a>If</a>
+                    </li>
+                    <li>
+                        <a>Else</a>
+                    </li>
+                    <li>
+                        <a>Else If</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a><strong>Bucles</strong></a>
+                <p>
+                    Los bucles son sentencias de codigo que permiten repetir cierto codigo un determinado numero de veces dependiendo
+                    si se cumple una condicion.
+                </p>
+                <ul>
+                    <li>
+                        <a>For</a>
+                    </li>
+                    <li>
+                        <a>While</a>
+                    </li>
+                </ul>
+                <br>
+            </li>
+            <li>
+                <a><strong>Funciones / Metodos</strong></a>
+                <p>
+                    Es una manera de estructurar el codigo, ya que la funcionpuede ser llamada las veces que sean necesarias y pueden
+                    retornar valores para ser usados para llegar a una solucion.
+                </p>
+            </li>
+            <li>
+                <a><strong>Sintaxis</strong></a>
+                <p>
+                    La manera en la que se escribe en un cierto lenguaje es conocido como sintaxis, varios lenguajes de programacion
+                    derivan su sintaxis del lenguaje <strong>C</strong>, la sintaxis define un conjunto de combinaciones para formar
+                    el funcionamiento del programa, dentro de la sintaxis de cada lenguaje existen dos tipos de semantica.
+                </p>
+                <ol>
+                    <li>
+                        <a>Semantica Estatica</a>
+                        <p>
+                            Define las restricciones sobre la estructura de los textos validos que resultan complicados de
+                            expresar mediante formalismos, para los lenguajes compilados incluyen reglas que pueden ser
+                            verificadas al momento de compilar el programa, por ejemplo si una variable esta siendo usada
+                            y aun no a sido declarada.
+                        </p>
+                    </li>
+                    <li>
+                        <a>Semantica de Tipos</a>
+                        <p>
+                            Un sistema de tipos de datos define la manera en la que el lenguaje de programacion clasifica
+                            los valores y expresiones, y la manera en de interactuar entre si, por ejemplo, en la mayoria
+                            de lenguajes existen las <strong>Lagunas de Tipos</strong>, en la que un tipo de dato puede ser
+                            usado por otro, por ejemplo un int dentro de un float.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+
+        </ol>
+    </section>
+
+    <section>
+        <h1 class="header1">Implementacion</h1>
+        <p>
+            La implementacion de un lenguaje esta descrita en de dos maneras:
+        </p>
+        <ol>
+            <li>
+                <a>Compilacion</a>
+                <p>
+                    La compilacion es un proceso en el cual se traduce del lenguaje origen hacia otro, generando un equivalente
+                    que la maquina pueda entender, este proceso es realizado por un <strong>Compilador</strong>, que es el
+                    encargado de la traduccion, generalmente a lenguaje ensamblador. Lenguajes como <strong>C, C++,
+                    Lua, Ada, Haskell, Cobol</strong> son lenguajes compilados, el beneficio de la compilacion es un mejor
+                    rendimiento para el programa.
+                </p>
+            </li>
+            <li>
+                <a>Interpretacion</a>
+                <p>
+                    Los lenguajes interpretados no son traducidos directamente a codigo maquina sino mas bien lo hacen linea
+                    por linea dependiendo si el programa necesita de dicha funcion, caso contrario no es tomada en cuenta,
+                    la ventaja de un lenguaje interpretado es la velocidad en el diseño ya que no tiene que estarse compilando
+                    cada ves que se desea ejecutar, mientras que su desventaja mas grande es la velocidad de ejecucion puesto
+                    que interpreta solo partes del codigo, luego las pasa a lenguaje maquina y sigue este proceso las veces
+                    necesarias.<br>
+                    Lenguajes como <strong>Php, Python, Ruby</strong> son interpretados.
+                </p>
+            </li>
+        </ol>
+        <p>
+            Java es un lenguaje que esta formado por ambas partes, es compilado, pero no directamente a lenguaje maquina
+            sino que corre en su propia maquina virtual, lo que le hace, de cierta manera, interpretado.
+        </p>
+    </section>
+
+</nav>
+
+<nav class="navegadorDerecho">
+    <h1>Noticias Informaticas</h1>
+    <section>
+        <ul id="estilo_nav_der">
+            <li>
+                <a href="https://www.xataka.com/aplicaciones/twitter-15-000-personas-han-confesado-sus-filias-fobias-lenguajes-programacion-python-amado-java-odiado">Los
+                    lenguajes mas queridos y los mas odiados</a><br>
+                En el mundo de la programación existe una gran variedad de lenguajes, entre ellos siempre han habido
+                unos
+                mas queridos y otros no tanto, para el articulo escrito por <strong>Xataka</strong> los datos fueron
+                obtenidos
+                de Twitter.
+            </li>
+            <li>
+                <a href="https://www.unocero.com/software/lenguaje-nim/">Nim, un nuevo lenguaje revolucionario</a><br>
+                Nim es un lenguaje de programacion relativamente nuevo, orientado a objetos y cuyo codigo es compilado a
+                lenguaje C (Se puede elegir el lenguaje de preferencia), entre sus ventajas esta un nuevo recolector de
+                basura
+                que es mucho mas veloz y versatil que el de <strong>Java</strong>, lo que se traduce como un mejor
+                rendimiento.
+            </li>
+            <li>
+                <a href="https://www.genbeta.com/desarrollo/ibm-lanza-curso-gratuito-espanol-machine-learning-python-que-puedes-comenzar-edx">IBM
+                    Lanza un curso gratuito sobre Machine Learning en Python</a><br>
+                IBM es una de las empresas tecnológicas mas grandes a nivel mundial, como es de esperar ellos publican
+                cursos sobre las tendencias en Ciencias de la Computación, esta ves es un curso sobre una de las
+                técnicas
+                de inteligencia artificial mas usadas, y para llamar aun mas la atención esta en edX ofreciendo un
+                certificado
+                para validar la finalización del curso.
+            </li>
+        </ul>
+    </section>
+</nav>
+
+<footer class="pie_pagina">
+    <p>Publicado por: Leonardo Alvarado Torres</p>
+    <p>Contacto: <a href="mailto:calvaradot1@est.ups.edu.ec">calvaradot1@est.ups.edu.ec</a>.</p>
+</footer>
+
+</body>
+</html>
