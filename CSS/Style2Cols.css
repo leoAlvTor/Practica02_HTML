@@ -22,14 +22,14 @@
     border-color: black;
     border-radius: 2em;
     background-color: #dfeba3;
-    width: 210px;
+    width: 260px;
     margin-top: 20px;
 }
 
 .contenido{
     float: left;
     margin-left: 20px;
-    width: 70%;
+    width: 65%;
     margin-top: 20px;
 }
 

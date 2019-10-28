@@ -2,21 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lenguajes de Programacion 2019</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Style2Cols.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/StyleTabla.css">
 </head>
+
 <body>
-    <h1>TITULO DE LA PAGINA</h1>
+<header class="cabecera">
+    <img src="../Images/logo.jpg" alt="Logo">
+</header>
 
-<p>
-    PArrafo de la pagina web
-</p>
+<nav class="menu">
+    <p>Navegador</p>
+    <ul class="lista">
+        <li>
+            <a href="../Index.html">
+                Introduccion
+            </a>
+        </li>
 
-    <a>
-        ENLACE DE LA PAGINA EN 12 PUNTOS
-    </a>
+        <li>
+            <a href="../Docs/Elementos.html">
+                Elementos Básicos
+            </a>
+        </li>
 
-<span>
-    OTRO TEXTO PERo CON 1 PICA
-</span>
+        <li>
+            <a href="../Docs/ListaDeLenguajes.html">
+                Lista de Lenguajes
+            </a>
+        </li>
+
+        <li>
+            <a href="../Docs/Clasificacion.html">
+                Clasificacion
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<nav class="contenido">
+    <h1 class="header1">Contactenos</h1>
+    <div class="container">
+        <label for="fname">Primer nombre:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Primer nombre...">
+
+        <label for="lname">Primer apellido:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Primer apellido...">
+
+        <label for="country">Pais de Origen</label>
+        <select id="country" name="country">
+            <option>Ecuador</option>
+            <option>Estados Unidos</option>
+            <option>España</option>
+            <option>Italia</option>
+            <option>Colombia</option>
+            <option>Mexico</option>
+            <option>Argentina</option>
+        </select>
+        <label for="subject">Ingrese su comentario:</label>
+        <textarea id="subject" name="subject" placeholder="Escriba aqui su comentario..."></textarea>
+        <input type="submit" value="Submit">
+    </div>
+</nav>
+
+<footer class="pie_pagina">
+    <p>Publicado por: Leonardo Alvarado Torres</p>
+    <p>Contacto: <a href="mailto:calvaradot1@est.ups.edu.ec">calvaradot1@est.ups.edu.ec</a>.</p>
+</footer>
 </body>
 </html>
