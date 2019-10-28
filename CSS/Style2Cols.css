@@ -1,12 +1,6 @@
-/*
-    Autor: Leonardo Alvarado Torres
-    Fecha: 19/10/2019
- */
-
 * body{
     background-color: #edfff4;
 }
-
 .cabecera img{
     max-width: 100%;
     height: auto;
@@ -15,7 +9,6 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
-
 .menu {
     float: left;
     border-style: groove;
@@ -25,14 +18,12 @@
     width: 260px;
     margin-top: 20px;
 }
-
 .contenido{
     float: left;
     margin-left: 20px;
     width: 65%;
     margin-top: 20px;
 }
-
 .pie_pagina{
     margin-top: 15px;
     border-style: outset;
